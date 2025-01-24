@@ -42,7 +42,7 @@ const Header = () => {
     })
   return (
     <header className="w-full flex justify-center">
-        <nav className={`h-8 w-[90%] fixed top-8 z-20 transition-all duration-500 ease-out
+        <nav className={`h-8 w-[90%] fixed top-8 z-20 transition-all duration-500 ease-out shadow-xl backdrop-blur-lg shadow-slate-600/60
         ${(direction === "up" || "") ? "translate-y-0" : "-translate-y-36"}
         bg-white text-slate-900 rounded-2xl  py-10 sm:py-12 px-8 mx-auto flex justify-between items-center`}>
             <div className="flex gap-2">
