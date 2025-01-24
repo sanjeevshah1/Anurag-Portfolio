@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "@/Components/Header";
+import Header from "@/components/Header";
 import { Josefin_Slab } from "next/font/google";
 
 const josefinSlab = Josefin_Slab({
