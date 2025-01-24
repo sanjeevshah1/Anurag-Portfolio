@@ -4,8 +4,6 @@ export default function Home() {
   return (
     <>
     <HomePage/>
-    <HomePage/>
-    <HomePage/>
     <About />
 
     </>
