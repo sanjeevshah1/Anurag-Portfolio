@@ -1,4 +1,4 @@
-import { Josefin_Slab } from "next/font/google";
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -14,7 +14,7 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        josefinSlab: ["'Josefin Slab'", "serif"]
+        josefinSlab: ["Josefin_Slab", "serif"]
       },
     },
   },

@@ -2,6 +2,12 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/Components/Header";
+import { Josefin_Slab } from "next/font/google";
+
+const josefinSlab = Josefin_Slab({
+  subsets: ["latin"],
+  variable: "--font-josefin-slab",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-300 relative`}
+        className={`${geistSans.variable} ${geistMono.variable} ${josefinSlab.variable} antialiased bg-slate-300 relative`}
       >
         <Header />
         {children}
