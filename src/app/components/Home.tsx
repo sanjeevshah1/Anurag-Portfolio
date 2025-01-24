@@ -8,20 +8,25 @@ const HomePage = () => {
             w-[500px] h-[500px]
             sm:w-[550px] sm:h-[550px]
             md:w-[600px] md:h-[600px]
-            lg:w-[900px] lg:h-[900px]  absolute z-10 
+            lg:w-[900px] lg:h-[900px] absolute z-10
             -top-[250px] -left-[250px]
             sm:-top-[275px] sm:-left-[275px]
             lg:-top-[450px] lg:-left-[450px]
-            border border-black rounded-full animate-spin">
-        <div className='h-full w-full rounded-full relative flex justify-end border border-black'>
+            border border-black rounded-full animate-spin ">
+           
+        <div className='h-full w-full rounded-full flex justify-end border border-black'>
           <div className='w-4 h-4 bg-black 
             mt-[310px] ml-[3px]
             sm:mt-[335px] sm:ml-[4px]
             md:mt-[360px] md:ml-[4px]
             lg:mt-[345px] lg:ml-[4px]
-            rounded-full'></div>
+            rounded-full'> 
+      
+            </div>
         </div>
       </div>
+      <p className="absolute text-3xl top-40 left-20 text-black font-josefinSlab">Web developer</p>
+      <p className="absolute text-3xl top-52 left-20 text-black font-josefinSlab">Ethical hacker</p>
             <p className="
             text-[75px]
             sm:text-[80px]
@@ -29,10 +34,10 @@ const HomePage = () => {
             lg:text-[150px]
             bg-clip-text text-transparent  bg-black 
             sm:mt-8
-            w-full
+            w-full 
             sm:w-[80%]
             md:w-[90%]
-            lg:w-[80%]
+            lg:w-[80%] lg:mt-16
             ">ANURAG SHRESTHA</p>
         <div className="absolute 
             right-8
