@@ -1,6 +1,7 @@
-'use client';
 import { ArrowUpRight } from "lucide-react"
-import {motion} from 'motion/react'
+// import {motion} from 'motion/react'
+import * as motion from 'motion/react-client'
+
 const About = () => {
     const text = `I am Anurag Shrestha, an Electronics, Communication, and Information engineering student with a strong passion for building backend projects using Node.js. I enjoy diving into the complexities of system architecture and creating efficient, scalable solutions. Alongside my interest in backend development, I am also fascinated by Cybersecurity and am always looking for ways to enhance the security of digital infrastructures and applications. Combining my skills in both backend development and cybersecurity, I am eager to contribute to the ever-changing tech world and make a meaningful impact.`
     const words =text.split(" ");
