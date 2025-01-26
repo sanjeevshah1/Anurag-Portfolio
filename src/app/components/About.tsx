@@ -7,7 +7,7 @@ const About = () => {
     const words =text.split(" ");
 
 return (
-    <div className="
+    <div className=" h-screen
             py-8 px-6
             sm:py-12 sm:px-8
             md:py-12 md:px-20
@@ -23,7 +23,6 @@ return (
             </motion.div>
                 <div className="flex flex-wrap text-white lg:w-[80%] text-justify font-josefinSlab text-xl md:text-2xl lg:text-3xl">
                 {words.map((word, index) => (
-                    // <>
                     <motion.span 
                     key={index}
                     initial={{opacity:0, x:10,y:10}}
@@ -34,7 +33,6 @@ return (
                         {word}
     
                     </motion.span>
-                    // </>
                 ))}
                 </div> 
         </div>     
