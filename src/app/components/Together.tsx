@@ -1,9 +1,11 @@
 import * as motion from 'motion/react-client'
 import { ArrowUpRight } from 'lucide-react'
+import Button from './Button';
 
 const Together = () => {
+
   return (
-    <div className='w-full relative overflow-hidden px-4 sm:px-6 md:px-12 lg:px-24 py-12 sm:py-16 lg:py-24 flex flex-col border-4 border-gray-200'>
+    <div id='connect' className='w-full relative overflow-hidden px-4 sm:px-6 md:px-12 lg:px-24 py-12 sm:py-16 lg:py-24 flex flex-col border-4 border-gray-200'>
      
       {/* Header Section */}
       <div className='flex flex-col sm:flex-row items-center justify-between border-b-2 border-slate-600 pb-8 sm:pb-12 w-full'>
@@ -64,10 +66,8 @@ const Together = () => {
       </div>
       
       {/* Go to Top Button */}
-      <button className='
-        fixed bottom-6 right-6 px-4 py-2 bg-black/90 text-white rounded-lg hover:bg-black/80 z-50'>
-        Go to top
-      </button>
+      
+      <Button />
     </div>
   )
 }

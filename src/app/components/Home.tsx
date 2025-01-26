@@ -2,7 +2,7 @@ import {ArrowDown} from "lucide-react"
 
 const HomePage = () => {
   return (
-    <div className="w-full h-screen flex  items-center relative p-8 ">
+    <div id="home" className="w-full h-screen flex  items-center relative p-8 ">
       <div style={{animationDuration : "3s"}} 
       className="
             w-[500px] h-[500px]

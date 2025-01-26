@@ -7,7 +7,7 @@ const About = () => {
     const words =text.split(" ");
 
 return (
-    <div className=" h-screen
+    <div id="about" className=" h-screen
             py-8 px-6
             sm:py-12 sm:px-8
             md:py-12 md:px-20
